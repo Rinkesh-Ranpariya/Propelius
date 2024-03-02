@@ -29,7 +29,7 @@ const Login = () => {
         password: "",
       },
       validationSchema: yup.object().shape({
-        email: yup.string().required("email/Username is required"),
+        email: yup.string().required("email/username is required"),
         password: yup.string().required("password is required"),
       }),
       onSubmit: (values) => {
